@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+{% for c in categorias %}
+<div class="bloco">
+    <a href="">
+        <main>
+            <header>
+                <div class="bolinha"></div>
+            </header>
+            <p class="titulo">{{c.nome}}</p>
+            <div class="data_quantidade">
+
+            </div>
+        </main>
+    </a>
+</div>
+{%endfor%}
+{%endblock%}

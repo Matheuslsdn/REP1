@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+
+<form method="POST" enctype="multipart/form-data">
+    <div>
+        <label>Nome da fruta</label>
+        <input value="{{fruta.nome_fruta}}" type="text" name="nome_fruta">
+    </div>
+    <div>
+        <label>Quantidade</label>
+        <input value="{{fruta.quantidade}}" type="text" name="quantidade">
+    </div>
+    <div>
+        <label>Cor</label>
+        <input value="{{fruta.cor}}" type="text" name="cor">
+    </div>
+    <div>
+        <label>Data Aquisicao</label>
+        <input value="{{fruta.data_aquisicao}}" type="date" name="data_aquisicao">
+    </div>
+    <div>
+        <label>Categoria</label>
+        <select name="categoria_id">
+            {% for c in categorias %}
+
+                <option value="{{c.id}}">{{c.nome}}</option>
+            {% endfor%}
+
+        </select>
+    </div>
+    <button type="submit">Salvar</button>
+</form> 
+
+{%endblock%}

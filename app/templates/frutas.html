@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+{% for f in frutas %}
+<div class="bloco cor">
+  <main>
+      <header>
+        <a href="/deletar?id={{f.id}}"><div class="bolinha"></div></a>
+        <a href="/atualizar/{{f.id}}"><div class="bolinha2"></div></a>
+      </header>
+      <p class="titulo">{{f.nome_fruta}}</p>
+      <div class="data_quantidade">
+          <div class="quantidade">
+              <p class="claro">Quantidade</p>
+              <p>{{f.quantidade}}</p>
+          </div>
+          <div class="data">
+              <p class="claro">Data</p>
+              <p>{{f.data_aquisicao}}</p>
+          </div>
+      </div>
+  </main>
+</div> 
+{%endfor%}
+{%endblock%}

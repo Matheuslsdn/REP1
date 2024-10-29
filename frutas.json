@@ -1,0 +1,50 @@
+{
+    "1": {
+        "nome_fruta": "nome_fruta",
+        "quantidade": "quantidade",
+        "cor": "cor",
+        "data_aquisicao": "2000-12-12",
+        "categoria_id": "categoria_id",
+        "texto": "foi"
+    },
+    "2": {
+        "nome_fruta": "melancia",
+        "quantidade": "20",
+        "cor": "verde",
+        "data_aquisicao": "2024-10-30",
+        "categoria_id": "fruta",
+        "texto": "foi"
+    },
+    "3": {
+        "nome_fruta": "pera",
+        "quantidade": "25",
+        "cor": "verde",
+        "data_aquisicao": "2024-10-30",
+        "categoria_id": "fruta",
+        "texto": "foi"
+    },
+    "4": {
+        "nome_fruta": "pera",
+        "quantidade": "25",
+        "cor": "verde",
+        "data_aquisicao": "2024-10-30",
+        "categoria_id": "1",
+        "texto": "foi"
+    },
+    "5": {
+        "nome_fruta": "pera",
+        "quantidade": "25",
+        "cor": "verde",
+        "data_aquisicao": "2024-10-30",
+        "categoria_id": "1",
+        "texto": "foi"
+    },
+    "6": {
+        "nome_fruta": "banana",
+        "quantidade": "20",
+        "cor": "amarela",
+        "data_aquisicao": "2024-10-30",
+        "categoria_id": "1",
+        "texto": "foi"
+    }
+}
